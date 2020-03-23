@@ -1,0 +1,30 @@
+{
+  "name": "rate-limit",
+  "version": "1.0.0",
+  "description": "rate limit test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bigjcr/rate-limit.git"
+  },
+  "author": "Jonathan Castro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bigjcr/rate-limit/issues"
+  },
+  "homepage": "https://github.com/bigjcr/rate-limit#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "redis": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
